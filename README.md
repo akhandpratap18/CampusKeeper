@@ -16,7 +16,6 @@
 
 - [Overview](#overview)
 - [Features](#features)
-- [Demo](#demo)
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
@@ -66,9 +65,6 @@ Campus Keeper addresses the common problem of lost items on university campuses 
 - **Confirmation Modals**: Prevent accidental deletions
 - **Data Management**: Efficient storage and retrieval via Firebase
 
-## 🎥 Demo
-
-*[Add screenshots or GIF demonstrations of key features here]*
 
 ## 🚀 Tech Stack
 
@@ -83,10 +79,6 @@ Campus Keeper addresses the common problem of lost items on university campuses 
 - **Firebase Storage** - Cloud storage for images
 - **EmailJS** - Email service for OTP delivery
 
-### Development Tools
-- **Vite** - Fast build tool and development server
-- **ESLint** - Code linting and style enforcement
-- **Git** - Version control
 
 ## 🏗️ Getting Started
 
@@ -149,31 +141,6 @@ Campus Keeper addresses the common problem of lost items on university campuses 
 2. Create an email service and template for OTP delivery
 3. Add the service ID, template ID, and public key to your `.env` file
 
-## 📁 Project Structure
-
-```
-src/
-├── assets/                 # Static files and images
-├── components/             # Reusable UI components
-│   ├── common/            # Shared components (Header, Footer, etc.)
-│   ├── forms/             # Form components
-│   └── ui/                # UI elements (buttons, modals, etc.)
-├── contexts/              # React Context providers
-│   └── AuthContext.js     # Authentication context
-├── pages/                 # Page components
-│   ├── Home.js           # Landing page
-│   ├── Profile.js        # User profile page
-│   ├── PostItem.js       # Item posting page
-│   └── ViewItems.js      # Items listing page
-├── services/              # External service integrations
-│   ├── firebase.js       # Firebase configuration
-│   └── emailjs.js        # EmailJS service
-├── utils/                 # Utility functions
-│   ├── validators.js     # Input validation
-│   └── helpers.js        # Helper functions
-├── App.js                # Main application component
-└── index.js              # Application entry point
-```
 
 ## 🔐 Authentication Flow
 
@@ -229,9 +196,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Project Maintainer**: [Your Name]
-- Email: your.email@example.com
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+- Email: akhandpratapsingh1817@gmail.com
+- GitHub: [@akhandpratap18](https://github.com/akhandpratap18)
+- LinkedIn: [Akhand Pratap Singh](https://linkedin.com/in/akhandpratapsinghgeu18)
 
 **Institution**: Graphic Era Deemed to be University, Dehradun
 
