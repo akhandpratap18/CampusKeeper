@@ -9,7 +9,6 @@ import {
 } from "firebase/auth";
 import { doc, setDoc, getDoc, updateDoc } from "firebase/firestore";
 
-// ⚠ Hardcoded OTP for demo only (do NOT use in production)
 let lastSentOTP = "1234";
 
 /**
