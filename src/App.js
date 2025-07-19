@@ -1,4 +1,4 @@
-// src/App.js
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,7 +15,7 @@ import AddItem from "./pages/AddItem";
 import ItemDetail from "./pages/ItemDetail";
 import Profile from "./pages/Profile";
 import CampusKeeperForgotPassword from "./pages/ForgotPassword";
-import DeleteItems from "./pages/DeleteItems"; // ✅ NEW
+import DeleteItems from "./pages/DeleteItems";
 
 // Protect routes: only allow if user is logged in
 function PrivateRoute({ children }) {
