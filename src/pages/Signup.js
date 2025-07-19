@@ -13,10 +13,10 @@ import {
 import emailjs from "emailjs-com";
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
-import { useNavigate } from "react-router-dom"; // ✅ add navigate
+import { useNavigate } from "react-router-dom"; 
 import { app } from "../firebase-config";
 
-// Initialize EmailJS
+
 emailjs.init("rmlRKvoqRXdC43m-k");
 
 const generateOtp = () =>
@@ -37,7 +37,7 @@ export default function CampusKeeperSignup() {
   const [step, setStep] = useState(1);
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const navigate = useNavigate(); // ✅ initialize navigate
+  const navigate = useNavigate(); 
 
   const handleChange = (e) =>
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -123,7 +123,7 @@ export default function CampusKeeperSignup() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-orange-50 flex items-center justify-center p-6">
       <div className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-2xl p-8 w-full max-w-md border border-gray-200">
-        {/* ✅ Back button on top */}
+        
         <button
           onClick={() => navigate(-1)}
           className="mb-4 flex items-center text-rose-600 hover:text-rose-700 transition-colors"
@@ -207,7 +207,7 @@ export default function CampusKeeperSignup() {
               placeholder="e.g. A1"
             />
 
-            {/* ✅ College dropdown */}
+            
             <div>
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 College
