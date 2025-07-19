@@ -47,7 +47,7 @@ export default function ItemDetail() {
         </p>
         <p className="text-gray-700 leading-relaxed mb-4">{item.description}</p>
 
-        {/* ✅ Updated image section */}
+        
         <div className="mb-4">
           {item.imageUrl || item.imageDataUrl ? (
             <img
