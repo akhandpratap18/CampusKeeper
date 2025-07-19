@@ -67,7 +67,7 @@ export default function Profile() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-rose-50 via-white to-orange-50 p-6 flex justify-center">
       <div className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-2xl p-8 w-full max-w-md border border-gray-200">
-        {/* ✅ Back button on top */}
+        {/* Back button on top */}
         <button
           onClick={() => navigate("/")}
           className="flex items-center text-rose-600 hover:text-rose-800 transition mb-4"
@@ -99,7 +99,7 @@ export default function Profile() {
             onChange={handleChange}
           />
 
-          {/* ✅ College dropdown */}
+          
           <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">
               College
@@ -163,7 +163,7 @@ export default function Profile() {
   );
 }
 
-/** 🔧 Reusable input component */
+
 function InputField({ label, ...props }) {
   return (
     <div>
